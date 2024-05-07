@@ -39,6 +39,7 @@ class LegacyDocumentJina(BaseDoc):
     """
 
     tensor: Optional[AnyTensor] = None
+    # TODO: bug with schema generation in topology graph
     #chunks: Optional[Union[DocList[LegacyDocumentJina], List[LegacyDocumentJina]]] = None
     #matches: Optional[Union[DocList[LegacyDocumentJina], List[LegacyDocumentJina]]] = None
     blob: Optional[bytes] = None
