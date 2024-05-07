@@ -39,8 +39,8 @@ class LegacyDocumentJina(BaseDoc):
     """
 
     tensor: Optional[AnyTensor] = None
-    chunks: Optional[Union[DocList[LegacyDocumentJina], List[LegacyDocumentJina]]] = None
-    matches: Optional[Union[DocList[LegacyDocumentJina], List[LegacyDocumentJina]]] = None
+    #chunks: Optional[Union[DocList[LegacyDocumentJina], List[LegacyDocumentJina]]] = None
+    #matches: Optional[Union[DocList[LegacyDocumentJina], List[LegacyDocumentJina]]] = None
     blob: Optional[bytes] = None
     text: Optional[str] = None
     url: Optional[str] = None
